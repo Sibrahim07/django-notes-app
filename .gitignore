@@ -24,3 +24,12 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+# Ignore MySQL data directory to avoid permission issues
+data/mysql/db/
+
+# Ignore other irrelevant files
+.git
+*.log
+tmp/
